@@ -1,0 +1,49 @@
+body{
+background-color: #f1f1f1;
+line-height: 30px;
+}
+input[type="text"]{
+    width: 50%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    outline-color: black;
+}
+textarea{
+    width: 50%;
+    height: 150px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    color: black;
+}
+label{
+    color: #3cbc8d;
+}
+select{
+    width: 30%;
+    padding: 5px 10px;
+    border: 1px solid rgb(70, 69, 69);
+    border-radius: 4px;
+    background-color: #ccc;
+}
+input[type=button],
+input[type=submit],
+input[type=reset]{
+    background-color: #3cbc8d;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
